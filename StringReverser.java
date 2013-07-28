@@ -4,11 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Created with IntelliJ IDEA.
- * User: Free Lunch
+ * @author theghv
+ * @version 1.0
  * Date: 7/22/13
  * Time: 6:16 PM
- * To change this template use File | Settings | File Templates.
  */
 public class StringReverser
 {
@@ -20,14 +19,30 @@ public class StringReverser
         reverse = "";
     }
 
+    public StringReverser(String forwards)
+    {
+        this.forwards = forwards;
+        reverse = "";
+    }
+
     public String getForwards()
     {
         return forwards;
     }
 
+    public void setForwards(String forwards)
+    {
+        this.forwards = forwards;
+    }
+
     public String getReverse()
     {
         return reverse;
+    }
+
+    public void setReverse(String reverse)
+    {
+        this.reverse = reverse;
     }
 
     public void reverser()
@@ -37,7 +52,7 @@ public class StringReverser
         displayString();
     }
 
-    private void reverseString()
+    public void reverseString()
     {
         for (int i = 1; i <= forwards.length(); i++)
         {
