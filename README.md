@@ -1,0 +1,1 @@
+This is a repository for Martyr2's Mega Project list. This section includes all of the text manipulation projects from the project list, and the programs here will be completed in Java. The project list can be found at the dream-in-code forums here: http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/
